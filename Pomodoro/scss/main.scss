@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.body{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(75, 178, 75);
+
+    .app{
+        height: auto;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        border: none;
+        border-radius: 10px;
+        padding: 2rem;
+        margin-bottom: 2rem;
+
+        .div-time{
+            height: auto;
+            width: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .div-value{
+                font-size: 2rem;
+                font-weight: bolder;
+                color: rgb(0, 0, 0);
+                margin: 1rem;
+            }
+        }
+
+        .itTask{
+            height: 2rem;
+        }
+
+        .bAdd{
+            height: 2rem;
+            width: auto;
+            font-size: 0.9rem;
+            font-weight: lighter;
+            color: rgb(255, 255, 255);
+            background-color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            transition: all 0.2s;
+        }
+
+        .completed .title .done{
+            font-size: 1rem;
+            font-weight: lighter;
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    .div-history{
+        height: 10rem;
+        width: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        margin: 5rem;
+    }
+}
+
